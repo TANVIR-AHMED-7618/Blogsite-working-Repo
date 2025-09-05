@@ -50,17 +50,17 @@
         <h1>Lemon Hive</h1>
 
         <div class="regpart">
-            <form>
-                <label for="fname">Full Name</label><br>
+            <form action="config/regist_ex.php" method="POST">
+                <label for="fullname">Full Name</label><br>
                 <input type="text" id="fullname" name="fullname" placeholder="Enter Your full-name"><br>
                 <label for="email">Email</label><br>
                 <input type="email" id="email" name="email" placeholder="Enter your Email"><br>
-                <label for="email">Password</label><br>
+                <label for="password">Password</label><br>
                 <input type="password" id="password" name="password" placeholder="Enter your Password"><br>
-                <label for="email">Confirm Password</label><br>
-                <input type="password" id="password" name="password" placeholder="Enter your Password"><br>
+                <label for="cpassword">Confirm Password</label><br>
+                <input type="password" id="password" name="cpassword" placeholder="Enter your Password"><br>
 
-                <button type="submit">Sign Up</button><br>
+                <button type="submit" name="signup">Sign Up</button><br>
             </form>
 
             

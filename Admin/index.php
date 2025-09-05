@@ -1,3 +1,9 @@
+<?php
+    include('config/dbcon.php');
+
+?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
